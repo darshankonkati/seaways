@@ -84,11 +84,11 @@
   max-width: 800px;
 }
 
-.grid h2 {
+.grid div h2 {
   color: black;
 }
 
-.grid p {
+.grid div p {
   color: black;
 }
 
@@ -111,7 +111,7 @@
   border-color: #ff206e;
 }
 
-.card h2 {
+.card div h2 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
 }

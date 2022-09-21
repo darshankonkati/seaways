@@ -1,8 +1,9 @@
+import { NextPage } from "next";
 import Head from "next/head";
 import React from "react";
 import styles from "../styles/Home.module.css";
 
-const aboutUs = () => {
+const aboutUs: NextPage = () => {
   return (
     <div className={styles.aboutUsContainer}>
       <Head>
