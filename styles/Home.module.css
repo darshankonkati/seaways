@@ -1,5 +1,14 @@
 .container {
   padding: 0 2rem;
+  background-image: url("../public/image.jpg");
+  background-size: cover;
+}
+
+.aboutUsContainer {
+  padding: 0 2rem;
+  background-image: url("../public/image.jpg");
+  background-size: cover;
+  height: 100vh;
 }
 
 .main {
@@ -26,10 +35,11 @@
   justify-content: center;
   align-items: center;
   flex-grow: 1;
+  color: #000000;
 }
 
-.title a {
-  color: #0070f3;
+.title {
+  color: #000000;
   text-decoration: none;
 }
 
@@ -54,6 +64,7 @@
   margin: 4rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
+  color: black;
 }
 
 .code {
@@ -73,6 +84,14 @@
   max-width: 800px;
 }
 
+.grid h2 {
+  color: black;
+}
+
+.grid p {
+  color: black;
+}
+
 .card {
   margin: 1rem;
   padding: 1.5rem;
@@ -88,8 +107,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: #ff206e;
+  border-color: #ff206e;
 }
 
 .card h2 {
